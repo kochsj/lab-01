@@ -1,0 +1,83 @@
+article, section, main, nav {
+    float: left;
+}
+header {
+    height: 100px;
+    line-height: 100px;
+}
+nav {
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
+}
+main{
+    width: 760px;
+}
+footer {
+    float: left;
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+}
+article {
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+}
+section {
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+}
+@media (max-width: 960px){
+    nav{
+        width: 21%;
+    }
+    main{
+        width: 79%
+    }
+    article {
+        width: 50%;
+    }
+    section {
+        width: 25%;
+    }
+    footer {
+        width: 79%;
+    }
+}
+@media (max-width: 768px){
+    section {
+        width: 240px;
+        float: left;
+        height: 250px;
+        line-height: 250px;
+    }
+    
+    header {
+        width: 480px;
+        height: 75px;
+        line-height: 75px;
+    }
+    
+    nav {
+        width: 480px;
+        height: 150px;
+        line-height: 150px;
+    }
+    article {
+        width: 480px;
+        height: 125px;
+        line-height: 125px;
+    }
+    
+    footer {
+        width: 480px;
+        height: 80px;
+        line-height: 80px;
+    }
+    
+    main {
+        width: 480px;
+    }
+}
