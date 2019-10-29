@@ -2,69 +2,79 @@ article, section, main, nav {
     float: left;
 }
 header {
-    line-height: 98px;
+    height: 100px;
+    line-height: 100px;
 }
 nav {
-    width: 198px;
-    line-height: 598px;
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
 }
 main{
     width: 760px;
 }
 footer {
-    float: right;
-    width: 758px;
-    line-height: 148px;
+    float: left;
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
 }
 article {
-    width: 378px;
-    line-height: 198px;
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
 }
 section {
-    width: 188px;
-    line-height: 248px;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
 }
 @media (max-width: 960px){
     nav{
         width: 21%;
     }
     main{
-        width: 78.6%
+        width: 79%
     }
     article {
-        width: 49.67%;
+        width: 50%;
     }
     section {
-        width: 24.67%;
+        width: 25%;
     }
     footer {
-        width: 78.47%;
+        width: 79%;
     }
 }
 @media (max-width: 768px){
     section {
-        width: 238px;
+        width: 240px;
         float: left;
-        line-height: 248px;
+        height: 250px;
+        line-height: 250px;
     }
     
     header {
-        line-height: 73px;
+        width: 480px;
+        height: 75px;
+        line-height: 75px;
     }
     
     nav {
-        width: 478px;
-        line-height: 148px;
+        width: 480px;
+        height: 150px;
+        line-height: 150px;
     }
     article {
-        width: 478px;
-        line-height: 123px;
+        width: 480px;
+        height: 125px;
+        line-height: 125px;
     }
     
     footer {
-        width: 478px;
-        height: 78px;
-        line-height: 78px;
+        width: 480px;
+        height: 80px;
+        line-height: 80px;
     }
     
     main {
