@@ -1,0 +1,15 @@
+
+
+
+@media (max-width: 768px){
+    html {
+        max-width: 480px;
+        margin: auto;
+    }
+    header, footer, section, article, nav {
+        border: 1px black solid;
+        background-color: lightgray;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

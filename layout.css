@@ -1,0 +1,31 @@
+
+
+
+@media (max-width: 768px){
+    section {
+        width: 238px;
+        float: left;
+        line-height: 248px;
+    }
+    
+    header {
+        line-height: 73px;
+    }
+    
+    nav {
+        line-height: 148px;
+    }
+    
+    article {
+        line-height: 123px;
+    }
+    
+    footer {
+        height: 78px;
+        line-height: 78px;
+    }
+    
+    main {
+        padding-bottom: 500px;
+    }
+}
