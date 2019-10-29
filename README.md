@@ -1,0 +1,1 @@
+Creating a wireframe of a website for mobile and for desktop. The elements will be filled in with a grey background so that their positioning can be seen.
